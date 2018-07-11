@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.Form {
+  padding: 60px 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+.hidden
+{
+  display: none;
+}
+
+.SubForm {
+    padding: 60px 60px;
+}
+
+.Pad{
+    margin: 0 auto;
+}
+
+.Form form {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.buttonCss {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.body-width {
+  width:100%;
+}
+
+.card{
+  height:100%;
+  width:100%;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.card-body{
+  background-color: white;
+  color:black
+}
+
+.space-right {
+  margin-right: 10px;
+}
+
+
+.dropdown{
+  width:50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.00005px;
+  margin-left: -100px;
+}
+
+.search{
+  height: 400px;
+  background: url(https://picsum.photos/1500/500?image=985);
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
